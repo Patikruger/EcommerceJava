@@ -16,7 +16,7 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
+    @Column(name = "data_pedido", nullable = false)
     private Date dataPedido = new Date();
 
     private Date dataPagamento;

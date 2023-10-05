@@ -8,7 +8,7 @@ public interface ClienteService {
 
     Cliente salvar(Cliente cliente) throws Exception;
     List<Cliente> buscarTodos();
-    List<Cliente> buscarPorId(Long Id) throws Exception;
+    Cliente buscarPorId(Long Id) throws Exception;
     boolean apagar(Long id) throws Exception;
 
 }
